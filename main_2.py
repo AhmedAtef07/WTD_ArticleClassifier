@@ -2,7 +2,7 @@ import os
 from os import path
 from collections import Counter
 
-data_path = 'bbc'
+data_path = 'bbc_train'
 data_words = {}
 
 d = [',', '.', '!', '?', '/', '&', '-', ':', ';', '@', '"', "'", '...']

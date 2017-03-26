@@ -1,7 +1,7 @@
 from collections import Counter
 
 words = {}
-with open('bbc/business/101.txt') as f:
+with open('bbc_train/business/101.txt') as f:
   article = f.read()
   print 'article\n', article
   print "=" * 50

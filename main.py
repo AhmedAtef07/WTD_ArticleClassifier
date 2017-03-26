@@ -79,6 +79,7 @@ def run_test_data(data_path):
   print 'correct_predications', all_correct_predications
   print 'accuracy', all_correct_predications / float(all_total_iterations)
 
+
 def find_best_match(test_article_type, test_article_freq):
   # print 'test_article_type:', test_article_type
   best_prob = -1

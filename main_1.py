@@ -9,8 +9,8 @@ with open('stopwords.txt') as f:
   stopping_words = f.read().split()
 
 words = []
-for article in os.listdir('bbc/business'):
-    article_path = path.join('bbc/business', article)
+for article in os.listdir('bbc_train/business'):
+    article_path = path.join('bbc_train/business', article)
     with open(article_path) as f:
       curr_words = f.read().split()
       words.extend([''.join(c for c in cw.lower() if c not in d) for cw in curr_words])
