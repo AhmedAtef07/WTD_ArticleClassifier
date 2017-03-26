@@ -15,7 +15,7 @@ Article Classifier
 - Better show the accuracy results.
 - [For those who want to fly] generate graphs with the results for better visualisation.
   - Chart.js maybe?
-  - Make HTML reports, loop up for html builder, or build it yourself.
+  - Make HTML reports, look for html builder, or build it yourself.
 
 ## Screenshots
 ![](http://i.imgur.com/kSVVuK9.png)
