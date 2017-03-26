@@ -1,0 +1,4 @@
+- Extract the words from the articles in a smarter way.
+- Add multi threading.
+- Store the counter results in a file so we don't run it each time, but just fetch it from the file.
+- Change the most common K value.
